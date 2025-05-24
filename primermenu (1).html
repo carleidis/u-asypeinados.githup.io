@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enciclopedia de Uñas</title>
+  <style>
+    :root {
+      --fondo: #fffdfc;
+      --rosa: #f9dede;
+      --rosa-oscuro: #e89cae;
+      --violeta: #b185db;
+      --gris: #6b7280;
+      --texto: #2c2c2c;
+      --destacado: #ffe4f2;
+      --borde: rgba(177, 133, 219, 0.3);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--fondo);
+      color: var(--texto);
+      line-height: 1.8;
+    }
+
+    header {
+      background: linear-gradient(to right, var(--rosa-oscuro), var(--violeta));
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      background-color: var(--destacado);
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: var(--gris);
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 16px;
+      background-color: white;
+      border-radius: 8px;
+      border: 1px solid var(--borde);
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: var(--violeta);
+      color: white;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-bottom: 60px;
+      background-color: white;
+      padding: 30px;
+      border-left: 5px solid var(--violeta);
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+    }
+
+    h2 {
+      color: var(--rosa-oscuro);
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+    }
+
+    .tip {
+      background: var(--destacado);
+      border-left: 4px solid var(--rosa-oscuro);
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+
+    footer {
+      background-color: var(--rosa);
+      color: var(--texto);
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Enciclopedia de Uñas</h1>
+    <p>Todo lo que necesitas saber sobre el arte, cuidado y salud de tus uñas</p>
+  </header>
+
+  <nav>
+    <a href="#estructura">Estructura</a>
+    <a href="#tipos">Tipos</a>
+    <a href="#cuidado">Cuidado</a>
+    <a href="#estilos">Estilos</a>
+    <a href="#problemas">Problemas</a>
+    <a href="#productos">Productos</a>
+    <a href="#natural">Natural</a>
+    <a href="#tips">Tips</a>
+  </nav>
+
+  <main>
+
+    <section id="estructura">
+      <h2>Estructura de la Uña</h2>
+      <p>La uña está compuesta por queratina endurecida, una proteína que también forma el cabello. Sus partes principales incluyen:</p>
+      <ul>
+        <li><strong>Matriz:</strong> Donde se genera el crecimiento de la uña.</li>
+        <li><strong>Lúnula:</strong> La media luna blanca visible en la base.</li>
+        <li><strong>Lecho ungueal:</strong> Piel debajo de la uña.</li>
+        <li><strong>Lámina ungueal:</strong> Parte visible de la uña.</li>
+        <li><strong>Cutícula:</strong> Protección entre piel y uña contra bacterias.</li>
+      </ul>
+    </section>
+
+    <section id="tipos">
+      <h2>Tipos de Uñas</h2>
+      <p>Identificar tu tipo de uña ayuda a adaptar el cuidado:</p>
+      <ul>
+        <li><strong>Normales:</strong> Resisten quiebres, crecen sanas.</li>
+        <li><strong>Frágiles:</strong> Se doblan fácilmente y se escaman.</li>
+        <li><strong>Secas:</strong> Ásperas y quebradizas.</li>
+        <li><strong>Gruesas:</strong> Más duras pero difíciles de limar.</li>
+        <li><strong>Estriadas:</strong> Con líneas visibles (pueden ser normales o indicar deficiencias).</li>
+      </ul>
+    </section>
+
+    <section id="cuidado">
+      <h2>Rutina de Cuidado de Uñas</h2>
+      <p>Una rutina completa implica limpieza, hidratación, protección y nutrición:</p>
+      <ol>
+        <li>Lava tus manos con jabón suave.</li>
+        <li>Remoja las uñas en agua tibia con sal marina.</li>
+        <li>Empuja suavemente la cutícula, no la cortes.</li>
+        <li>Lima en una sola dirección, evita tijeras.</li>
+        <li>Aplica crema hidratante y aceite de cutículas diariamente.</li>
+        <li>Usa guantes al limpiar o manipular químicos.</li>
+      </ol>
+      <div class="tip">¡Evita morder tus uñas! Es un hábito que las debilita y abre la puerta a infecciones.</div>
+    </section>
+
+    <section id="estilos">
+      <h2>Estilos de Uñas</h2>
+      <p>El mundo de la decoración de uñas es tan amplio como creativo:</p>
+      <ul>
+        <li><strong>Francesa:</strong> Elegancia clásica con puntas blancas.</li>
+        <li><strong>Nude:</strong> Tonos naturales, ideal para cualquier ocasión.</li>
+        <li><strong>Gel:</strong> Largas, resistentes y brillantes por semanas.</li>
+        <li><strong>Acrílicas:</strong> Muy duraderas, ideales para diseños elaborados.</li>
+        <li><strong>Stiletto:</strong> Puntiagudas y atrevidas.</li>
+        <li><strong>Coffin o ballerina:</strong> Planas al final, elegantes y modernas.</li>
+      </ul>
+    </section>
+
+    <section id="problemas">
+      <h2>Problemas Comunes</h2>
+      <p>Algunos signos pueden revelar más sobre tu salud general:</p>
+      <ul>
+        <li><strong>Uñas amarillas:</strong> Posible hongo o uso excesivo de esmalte.</li>
+        <li><strong>Manchas blancas:</strong> Golpes o falta de zinc.</li>
+        <li><strong>Uñas quebradizas:</strong> Déficit de vitaminas o contacto con químicos.</li>
+        <li><strong>Uñas hundidas:</strong> Posible anemia.</li>
+        <li><strong>Uñas con líneas oscuras:</strong> ¡Consulta médica inmediata!</li>
+      </ul>
+    </section>
+
+    <section id="productos">
+      <h2>Productos Esenciales</h2>
+      <p>Ten siempre a mano estos aliados:</p>
+      <ul>
+        <li>Quitaesmalte sin acetona</li>
+        <li>Base fortalecedora</li>
+        <li>Aceite de cutícula</li>
+        <li>Esmaltes de calidad</li>
+        <li>Top coat brillante</li>
+        <li>Crema de manos nutritiva</li>
+      </ul>
+    </section>
+
+    <section id="natural">
+      <h2>Cuidados Naturales</h2>
+      <p>Algunos remedios caseros y aceites ayudan a mantenerlas saludables:</p>
+      <ul>
+        <li><strong>Ajo:</strong> Fortalece y combate hongos.</li>
+        <li><strong>Limón:</strong> Aclara manchas y endurece.</li>
+        <li><strong>Aceite de oliva:</strong> Hidrata profundamente.</li>
+        <li><strong>Vitamina E:</strong> Ayuda a regenerar cutículas dañadas.</li>
+      </ul>
+      <div class="tip">Unas gotas de aceite de ricino cada noche pueden acelerar el crecimiento.</div>
+    </section>
+    <section id="tips">
+        <h2>Tips Finales</h2>
+        <ul>
+          <li>No uses las uñas como herramientas.</li>
+          <li>Hidrata después de cada lavado de manos.</li>
+          <li>No retires el esmalte raspando, usa removedor suave.</li>
+          <li>Deja respirar las uñas entre manicuras.</li>
+          <li>Evita usar uñas postizas con frecuencia.</li>
+        </ul>
+      </section>
+  
+    </main>
+  
+    <footer>
+      <p>&copy; 2025 Enciclopedia de Uñas | Belleza, salud y estilo al alcance de tus manos</p>
+    </footer>
+  
+  </body>
+  </html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enciclopedia de Peinados</title>
+  <style>
+    :root {
+      --fondo: #fffafc;
+      --primario: #ffb6c1;
+      --secundario: #ffe0eb;
+      --texto: #333;
+      --acento: #ff6f91;
+      --borde: #ffc2d1;
+      --sombra: rgba(0,0,0,0.07);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--fondo);
+      color: var(--texto);
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(to right, var(--primario), var(--secundario));
+      padding: 60px 20px;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 8px 20px var(--sombra);
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+
+    nav {
+      background-color: var(--secundario);
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 6px var(--sombra);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--texto);
+      background-color: white;
+      padding: 10px 16px;
+      border: 1px solid var(--borde);
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: var(--acento);
+      color: white;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 60px;
+      padding: 30px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px var(--sombra);
+      border-left: 6px solid var(--acento);
+    }
+
+    h2 {
+      color: var(--acento);
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+
+    ul, ol {
+      margin-left: 25px;
+    }
+
+    .tips {
+      background-color: var(--secundario);
+      border-left: 5px solid var(--acento);
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: var(--acento);
+      color: white;
+      padding: 30px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Enciclopedia de Peinados</h1>
+    <p>Descubre estilos, consejos y todo lo que necesitas saber sobre peinados</p>
+  </header>
+
+  <nav>
+    <a href="#historia">Historia</a>
+    <a href="#tipos">Tipos</a>
+    <a href="#ocasiones">Por ocasión</a>
+    <a href="#cuidados">Cuidados</a>
+    <a href="#tendencias">Tendencias</a>
+    <a href="#errores">Errores</a>
+    <a href="#tips">Consejos</a>
+  </nav>
+
+  <main>
+
+    <section id="historia">
+      <h2>Historia de los Peinados</h2>
+      <p>Desde la antigüedad, el peinado ha sido una expresión cultural, social y personal. En Egipto, los peinados estaban relacionados con el estatus. En la Europa del siglo XVIII, las pelucas monumentales eran símbolo de aristocracia. En la actualidad, los peinados representan moda, identidad y funcionalidad.</p>
+    </section>
+
+    <section id="tipos">
+      <h2>Tipos de Peinados</h2>
+      <ul>
+        <li><strong>Moño clásico:</strong> Elegante y atemporal.</li>
+        <li><strong>Trenza francesa:</strong> Versátil y delicada.</li>
+        <li><strong>Cabello suelto ondulado:</strong> Natural y relajado.</li>
+        <li><strong>Cola de caballo alta:</strong> Juvenil y práctica.</li>
+        <li><strong>Peinados recogidos:</strong> Formales y refinados.</li>
+        <li><strong>Peinados con volumen:</strong> Ideal para cabello fino.</li>
+      </ul>
+    </section>
+
+    <section id="ocasiones">
+      <h2>Peinados para Cada Ocasión</h2>
+      <ul>
+        <li><strong>Eventos formales:</strong> Moños, recogidos, ondas suaves.</li>
+        <li><strong>Escuela o trabajo:</strong> Trenzas, semirrecogidos.</li>
+        <li><strong>Fiestas:</strong> Trenzas laterales, peinados con glitter o moños despeinados.</li>
+        <li><strong>Bodas:</strong> Recogidos románticos, peinados con flores.</li>
+        <li><strong>Deportes:</strong> Trenza boxer, cola baja firme.</li>
+      </ul>
+    </section>
+
+    <section id="cuidados">
+      <h2>Cuidados para un Peinado Perfecto</h2>
+      <ol>
+        <li>Desenreda con cuidado antes de peinar.</li>
+        <li>Evita calor extremo sin protección térmica.</li>
+        <li>Hidrata tu cabello regularmente.</li>
+        <li>Usa productos que no dejen residuos.</li>
+        <li>No duermas con peinados muy tensos.</li>
+      </ol>
+    </section>
+
+    <section id="tendencias">
+      <h2>Tendencias en Peinados 2025</h2>
+      <ul>
+        <li>Trenzas boho con accesorios.</li>
+        <li>Moños dobles (space buns).</li>
+        <li>Cabello suelto con ondas naturales.</li>
+        <li>Peinados inspirados en los años 2000.</li>
+        <li>Recogidos con volumen desenfadado.</li>
+      </ul>
+      <div class="tips">
+        ¡Combina tu peinado con tu outfit y maquillaje para un look completo!
+      </div>
+    </section>
+
+    <section id="errores">
+      <h2>Errores Comunes al Peinarse</h2>
+      <ul>
+        <li>Aplicar demasiados productos fijadores.</li>
+        <li>No desenredar bien antes de comenzar.</li>
+        <li>Usar calor sin protección.</li>
+        <li>Peinados muy tensos que dañan el cuero cabelludo.</li>
+        <li>No considerar la forma del rostro.</li>
+      </ul>
+    </section>
+
+    <section id="tips">
+      <h2>Consejos de Estilistas Profesionales</h2>
+      <ul>
+        <li>Cambia la raya del cabello regularmente.</li>
+        <li>No laves el cabello todos los días si no es necesario.</li>
+        <li>Los peinados sueltos dan un look juvenil y relajado.</li>
+        <li>El volumen puede equilibrar facciones.</li>
+        <li>Siempre ten a mano ligas, ganchos y laca suave.</li>
+      </ul>
+      <div class="tips">
+        ¡Experimenta con estilos! El cabello crece, los peinados cambian, pero tu estilo siempre brilla.
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Enciclopedia de Peinados | Belleza, creatividad y estilo en cada cabello</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <img src = "estudiantes.jpg" alt="graduacion"whidth="300"height="200"/>
+
+
+    <title>MI PRIMERA WEB 2025</title>
+    <style>
+        .encabezado{
+            background-color:rgb(170, 96, 245);
+        text-shadow: 3px 5px 5px gray;
+        color:white;
+        display: flex;
+        justify-content:center;
+        text-align: center;
+        }
+        .descripcion{ text-align: center;
+            border:2px solid rgb(15, 14, 15);
+            background-color: #fff;
+            margin:10px 100px;
+        
+        }
+            h3{
+                color:rgb white;
+                background-color:rgb(148, 73, 218)
+        }
+        .borde {
+            display: inline-block;
+            background-color: #E3E6E9;
+            border: 1PX SOLID RGB(44,107,70);
+            font-family: monospace;
+            
+        }
+        TABLE,TD{
+            border: 2PX SOLID RGB(52,12,161);
+            width: 500PX;height: 50PX;
+            background-color: rgb(231, 236, 235);
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+            cursor:pointer;
+
+        }
+        th{
+            background-color: rgb(218, 217, 224);
+            color:rgb(29, 23, 23);
+            text-align: center;
+        }
+    body{
+        background-color: rgb(245, 212, 240);
+        margin:50px;
+        padding:80px;
+        border:solid 40px rgb(174, 136, 212);
+        outline:5px solid white;
+        text-align: justify;
+        font-size:19px
+    }
+
+    </style> 
+    </head>
+
+    <body>
+    <div class="encabezado"> <h1 >¿COMO HACER PAGINAS CON HTML?</h1></div>
+
+    <div class="descripcion"> <h2 >EN ESTA PAGINA,APRENDEREMOS COMO REALIZAR 
+        PAGINAS WEB CON HTML  CON LA APRENDIZ CARLEIDIS MORENO </h2></div>
+    <hr><br>
+    <span style="color red"></span>significa leguaje de Marcas de Hipertexto. No es
+    un lenguaje de programacion per se, sino un lenguaje de marcado que se utiliza para crear
+    la estructurade las paginas web. define el significado y la estructura del contenido web.<br><br>
+    <ol>
+        <h3><li>ESTRUCTURA BASICA DE UN DOCUMENTO HTML</H3></li>
+            Todo documento HTML comienza con declaracion de tipo de documento, seguido por elementos
+            que definen la cabeza (head)y el cuerpo (body)de la pagina. <br> 
+            
+        <h3><li> TITULOS Y VIÑETA </h3></LI>
+            Cuando pones un texto en una etiqueta (h1),el texto estara en negrilla, y la dimension de la 
+            letra sera igual al numero del encabezado.Los titlos pueden tener dimensiones entre 1 y 6.
+            Las viñetas en HTML  ofrecen dos tipos principales de listas:<br><br>
+            <ul>
+                <li>Listas desordenadas (con viñetas)</li>
+                <li>se utiliza con UL </li>
+            </ul>
+
+            <ol>
+                <li>Listas ordenadas con (numeradas)</li>
+                <li>se  utiliza con OL</li>
+
+            </ol>
+            <H3><LI>ATRIBUTOS</H3></LI>
+            Los elementos HTML pueden tener atributos que proporcionan informacion adicional sobre el 
+            elemento.Por ejemplo, el elemento <b>(img)5tiene atributos como src(que indica la fuente 
+                de la imagen)y alt (que proporciona texto alternativo): </b><br>
+
+                <img src ="carleidis.jpg" alt="graduacion"whidth="300"height="200"/>
+
+                <h3><li>BORDES</h3></LI>
+                    Para poder indicar un borde determinado con un color y un grosor 
+                    concreto para un div, dentro del codigo CSS, utilizando la propiedad
+                    <b>border</b>, que utiliza el siguiente formato: <br>
+
+                    <div class="borde">border:2px solid grey;</div> <br>
+                    <h3> <li> ELEMENTOS Y ETIQUETAS </H3></li>
+                        HTML utiliza "etiquetas" para marcar el inicio y el fin
+                        de los elementos.Estas etiquetas generalmente vienen en pares,
+                        por ejemplo:<br><br>
+                        <table style="width:500px;">
+                            <tr>
+                                <th>ETIQUETA</th>
+                                <Th>DESCRIPCIÓN</Th>
+                            </tr>
+                            <tr>
+                                <td>head</td>
+                                <td>Texto no visible (metadatos,codigos,
+                                    palabras claves)</td>
+                            </tr>
+                            <tr>
+                                <td>title </td>
+                                <td>Define el título  de la página del navegador.</td>
+                            </tr>
+                            <tr>
+                                <td>body</td>
+                                <td>encierra todo el contenido visible de la pagina</td>
+                            </tr>
+                            <tr>
+                                <td>ul,ol,li</td>
+                                <td>UL (viñetas),OL (números),y LI para los ítems.</td>
+                            </tr>
+                            <tr>
+                                <td>div y span</td>
+                                <td>Contenedor para agrupar contenido de doble y de línea,utilizado CSS.</TD>
+                            </tr>
+                        </table>
+                        <h3><li>FORMULARIOS</h3>
+                        </LI>
+                        Los formularios en HTML son elementos esencialespara recopilar información de los usuarios
+                        en una pagina web.Permiten enviar datos a un servidor para su procesamiento.<hr>
+                        <form>
+                            <label>nombre</label>>
+                            <input>
+                        <label 
+                        for="contraseña">contraseña</label>
+                        <input type="password"/>
+                        <br><br>
+                        <label for="autoriza dejar información">autoriza dejar información</label>
+                        <input type="radio"/>
+                        <br><br>
+                        <label
+                        for="comentarios"></label><br>
+                        <textarea cols="50"rows="5"
+                        id="comentarios"></textarea><br>
+                        <input type="submit"/>
+                      </form>
+                      <h3> <li>ENLACES</h3></LI>
+                        Los enlaces (o hipervínculos)en HTML son elementos fundamentales que permiten navegar 
+                        entre paginas web y recursos.Se crean con la etiqueta (a), con href se coloca el link, y con
+                        target="-black"se abre el link enotra página.
+                        <hr>
+                        <a target="-blank"
+                        href="https://colcamilodaza.edu.co/web/">ir a google</a>
+                        </ol>
+
+                        
+                        
+                        
+                        
+                        
+
+
+            
+                
+
+
+            
+
+        
+
+
+
+    
+</body>
+</html>
